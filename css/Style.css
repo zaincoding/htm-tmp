@@ -286,14 +286,36 @@ hr{
         font-weight: 700;
     }
 
-@media(max-width: 768px){
+    @media(max-width: 830px){
+        .left-column .year{
+    
+            font-size: 1.2rem;
+            margin-top: 20%;
+            padding: 37px;
+        }
+    }
+
+@media(max-width: 770px){
     .left-column .year{
 
         font-size: 1.2rem;
-        margin-bottom: 500%;
-        margin-top: 50%;
+        margin-top: 20%;
+        padding: 37px;
     }
 }
+
+
+@media(max-width: 520px){
+    .left-column .year{
+
+        font-size: 1.2rem;
+        margin-top: 20%;
+        padding-bottom: 220px;
+        /* margin-bottom: 400%; */
+        margin-left: -16px;
+    }
+}
+
 
 
 /* Skills Section */
